@@ -1,0 +1,83 @@
+body {
+    background-color: #e8d5b5; /* A warm, sandy beige matching your sample */
+    color: #333333; /* Dark grey text for readability */
+}
+
+hr {
+    border: none;
+    border-top: 4px dotted #8c8c8c; /* Creates the dotted effect */
+    width: 10%; /* Makes the line short and centered */
+    margin: 2rem auto; /* Centers the line and adds breathing room above and below */
+    opacity: 1; /* Bootstrap fades hr tags by default, this makes it fully visible */
+}
+
+h1, h3, h4, h5, h6 {
+    color: #3b5998; /* The distinct dark blue from the sample */
+    font-weight: 600; /* Makes the text just a little bolder */
+}
+
+.card {
+    border: none; /* Removes the default Bootstrap border */
+    background-color: transparent; /* Makes the top part behind the image blend in */
+}
+
+.card-body {
+    background-color: #f7b174; /* The peachy-orange color from the sample */
+    border-radius: 0 0 5px 5px; /* Keeps the bottom corners slightly rounded */
+}
+
+input[type="text"] {
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.poem-section {
+    background-color: #f7b174; /* Matching the peachy-orange card color */
+    border-radius: 5px; /* Subtle rounding on the corners */
+    padding: 30px; /* Gives plenty of breathing room inside the box */
+}
+
+/* Styling for your primary/action buttons */
+.btn-primary {
+    background-color: #3b5998 !important; /* Forces our signature dark blue */
+    border-color: #3b5998 !important;
+    color: #ffffff;
+}
+
+/* Hover effect for the primary button to make it feel responsive */
+.btn-primary:hover {
+    background-color: #2a3f6d !important;
+    border-color: #2a3f6d !important;
+}
+
+/* Styling for your reset/warning button */
+.btn-warning {
+    background-color: #e67e22 !important; /* A deeper, richer orange/amber */
+    border-color: #e67e22 !important;
+    color: #ffffff !important; /* Changes text to white for better contrast */
+}
+
+.btn-warning:hover {
+    background-color: #d35400 !important;
+    border-color: #d35400 !important;
+}
+
+
+/* 1. Header and Footer Banner Formatting */
+header img, footer img {
+    height: 300px; /* Locks the height so it doesn't get massively tall on wide screens */
+    object-fit: cover; /* Acts like a picture frame, cropping the image beautifully without stretching it */
+    object-position: center; /* Ensures the most important part of the image stays in the middle */
+}
+
+/* 2. Customizing the Contact Links */
+.text-warning {
+    color: #e67e22 !important; /* Matches your reset button's warm orange */
+    transition: color 0.3s ease; /* Adds a smooth fade effect */
+}
+
+.text-warning:hover {
+    color: #d35400 !important; /* Darkens slightly when the user hovers over the link */
+}
